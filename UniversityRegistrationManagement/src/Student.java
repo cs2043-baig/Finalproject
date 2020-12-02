@@ -21,7 +21,8 @@ public Student(String name, String email, int ID, Course[] courses){
              return System.out.println(course[i]);
         }
     }
-    System.out.println("Your semester fees is: $" + c.length*2500);
+    double Fees = c.length*2500;
+    System.out.println("Your semester fees is: $" + Fees);
     System.out.println("Do you want to print the Schedule: Yes/No ");
     String b = scan.next();
     if(b.equals("Yes"))
