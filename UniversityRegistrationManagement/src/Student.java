@@ -4,13 +4,16 @@ public class Student extends User{
 	private String name;
 	private String email;
 	private int ID;
-	Course[] schedule;
+	private String pass;
+	Course[] course;
 
 	// construct a new student with given fields
-	public Student(String name, String email, int ID) {
+	public Student(String name, String email, int ID, String pass, Course[] course) {
 		this.name = name;
 		this.email = email;
 		this.ID = ID;
+		this.pass=pass;
+		this.course=course
 	}
 
 	public Course[] getSchedule() {
