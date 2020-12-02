@@ -13,9 +13,12 @@ public Student(String name, String email, int ID, Course[] courses){
     this.course = course;
     }
     
-     public Course[] getCourses(Course[] c)
+     void getCourses(Course[] c)
      {
-        return c;
+        for (int i = 0; i<c.length; i++)
+        {
+            System.out.println(c[i]);
+        }
     }
 
     public void drop(){
