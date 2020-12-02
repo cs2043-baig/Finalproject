@@ -42,6 +42,5 @@ public class Course {
    }
     
     
-    
     // "A course offering fewer than 3 students will be cancelled" : I think we need a method to keep track of this, like remove the course from the course list
 }
