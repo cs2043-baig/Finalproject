@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Student {
+public class Student extends User{
 	private String name;
 	private String email;
 	private int ID;

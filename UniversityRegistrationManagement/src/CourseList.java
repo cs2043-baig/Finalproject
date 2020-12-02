@@ -13,7 +13,7 @@ public class CourseList {
 	        this.semester = semester;
 	    }
 	 
-	theStudent.getSchedule();
+	//theStudent.getSchedule();
 
 	 
 	 
