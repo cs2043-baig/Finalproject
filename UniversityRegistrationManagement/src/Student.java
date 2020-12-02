@@ -4,7 +4,7 @@ public class Student {
     private String email;
     private int ID;
     private Course[] courses;
-
+Scaner scan = new Scanner(System.in);
     // construct a new student with given fields
 public Student(String name, String email, int ID, Course[] courses){
     this.name = name;
@@ -12,17 +12,22 @@ public Student(String name, String email, int ID, Course[] courses){
     this.ID = ID;
     this.course = course;
     }
-    
-     void getCourses(Course[] c)
-     {
-        for (int i = 0; i<c.length; i++)
+    System.out.println("Do you want to print the courselist? Yes/No ");
+     String a = scan.next();
+    if(a.equals("Yes"))
+    {
+        for (int i = 0; i<course.length; i++)
         {
-            System.out.println(c[i]);
+             return System.out.println(course[i]);
         }
     }
-
-    public void drop(){
-        //if deadline crossed cant drop
+    System.out.println("Your semester fees is: $" + c.length*2500);
+    
+    public void drop()
+    {
+        
+        System.out.println("Deadline of droping a course is 25days after starting the course")
+            if 
         //remove that specific course from array
     }
     
