@@ -1,19 +1,21 @@
+
 import java.util.*;
 
 public class User {
-    private String username;
-    private String password;
+	private String id;
+	private String password;
+	private char initial;
 
-    public User(String username, String password){
-        this.username = username;
-        this.password = password;
-    }
+	public User(String id, String pass) {
+		this.id = id;
+		this.password = pass;
+	}
 
-    public String getUsername(){
-        return username;
-    }
+	public String getUsername() {
+		return getUsername();
+	}
 
-    public String getPassword(){
-        return password;
-    }
+	public String getPassword() {
+		return password;
+	}
 }
