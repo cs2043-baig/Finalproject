@@ -22,11 +22,22 @@ public Student(String name, String email, int ID, Course[] courses){
         }
     }
     System.out.println("Your semester fees is: $" + c.length*2500);
-    
+    System.out.println("Do you want to print the Schedule: Yes/No ");
+    String b = scan.next();
+    if(b.equals("Yes"))
+    {
+    File myObj = new File("Schedule.txt");
+      Scanner myReader = new Scanner(myObj);
+      while (myReader.hasNextLine())
+      {
+        String data = myReader.nextLine();
+        System.out.println(data);
+      }
+     myReader.close();
+    }
     public void drop()
     {
-        
-        System.out.println("Deadline of droping a course is 25days after starting the course")
+        System.out.println("Deadline of droping a course is")
             if 
         //remove that specific course from array
     }
