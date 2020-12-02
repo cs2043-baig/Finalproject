@@ -1,16 +1,29 @@
-import java.util.*;
-public class Professor {
+public class Professor extends User{
     private String name;
     private String email;
-    private int id;
-    private String pass
+    private int ID;
     private Course[] courses;
-Scaner scan = new Scanner(System.in);
+    String username;
+    String password;
+
     // construct a new student with given fields
-public Student(String name, String pass, String email, int id, Course[] courses){
-    this.name = name;
-    this.email = email;
-    this.id = id;
-    this.pass=pass;
-    this.course = course;
+    public Professor(String username, String password, String name, String email, int ID, Course[] courses){
+        super(username, password);
+        this.name = name;
+        this.email = email;
+        this.ID = ID;
+        courses = new Course[6];
     }
+
+    public String getUsername(){
+        return username;
+    }
+
+    public String getPassword(){
+        return password;
+    }
+    
+    public Course[] getCourses(Course[] c){
+        return c;
+    }
+}
