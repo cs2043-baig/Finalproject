@@ -34,6 +34,6 @@ public class Course {
     }
 
     public String toString(){
-      return name + ", " + courseID + "\nThe professor is: "+ professor +"\nPrerequisite: "+preReq;
+      return "Course name: "+name + ", " + courseID + "\nThe professor is: "+ professor +"\nPrerequisite: "+preReq+"\nNumber of Students: "+numStudents;
    }
 }
