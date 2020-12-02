@@ -1,39 +1,40 @@
+import java.util.*;
+
+
+
 public class Course {
-    private String name;
-    private String courseID;
-    private String professor;
-    private String preReq;
-    private int numStudents;
+	private String name;
+	private String courseID;
+	private String professor;
+	private String preReq;
+	private int numStudents;
 
-    public Course(String name, String courseID, String professor, String preReq, int numStudents){
-        this.name = name;
-        this.courseID = courseID;
-        this.professor = professor;
-        this.preReq = preReq;
-        this.numStudents = numStudents;
-    }
+	public Course(String name, String courseID, String professor, String preReq, int numStudents) {
+		this.name = name;
+		this.courseID = courseID;
+		this.professor = professor;
+		this.preReq = preReq;
+		this.numStudents = numStudents;
+	}
 
-    String getName(){
-        return name;
-    }
+	String getName() {
+		return name;
+	}
 
-    String getCourseID(){
-        return courseID;
-    }
+	String getCourseID() {
+		return courseID;
+	}
 
-    String getProfessor(){
-        return professor;
-    }
+	String getProfessor() {
+		return professor;
+	}
 
-    String getPreReq(){
-        return preReq;
-    }
+	String getPreReq() {
+		return preReq;
+	}
 
-    int getNumberOfStudents(){
-        return numStudents;
-    }
-
-    public String toString(){
-      return "Course name: "+name + ", " + courseID + "\nThe professor is: "+ professor +"\nPrerequisite: "+preReq+"\nNumber of Students: "+numStudents;
-   }
+	int getNumberOfStudents() {
+		return numStudents;
+	}
+	
 }
