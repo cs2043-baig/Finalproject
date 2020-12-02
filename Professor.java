@@ -1,5 +1,4 @@
-import java.util.*;
-public class Student extends User{
+public class Professor extends User{
     private String name;
     private String email;
     private int ID;
@@ -8,7 +7,7 @@ public class Student extends User{
     String password;
 
     // construct a new student with given fields
-    public Student(String username, String password, String name, String email, int ID, Course[] courses){
+    public Professor(String username, String password, String name, String email, int ID, Course[] courses){
         super(username, password);
         this.name = name;
         this.email = email;
@@ -26,16 +25,5 @@ public class Student extends User{
     
     public Course[] getCourses(Course[] c){
         return c;
-    }
-
-    public void drop(){
-        //if deadline crossed cant drop
-        //remove that specific course from array
-    }
-    
-    public void add(){
-        //if deadline crossed cant add
-        //calling catalog();
-        //whatever the student select add to course Array
     }
 }
