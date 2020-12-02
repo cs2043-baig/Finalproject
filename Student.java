@@ -10,11 +10,11 @@ public Student(String name, String email, int ID, Course[] courses){
     this.name = name;
     this.email = email;
     this.ID = ID;
-    courses = new Course[6];
+    this.course=course;
     }
     
-    
-     public Course[] getCourses(Course[] c){
+     public Course[] getCourses(Course[] c)
+     {
         return c;
     }
 
