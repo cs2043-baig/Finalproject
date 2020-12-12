@@ -21,7 +21,7 @@ import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
-import javafx.stage.Modality;
+import javafx.stage.Modality; 
 import javafx.stage.Stage;
 
 public class AccountLogin extends Application {
